@@ -57,6 +57,7 @@ INSTALLED_APPS = [
 
     # 앱
     'core.apps.CoreConfig',
+    'comap.apps.ComapConfig',
 ]
 
 MIDDLEWARE = [
@@ -74,7 +75,7 @@ ROOT_URLCONF = 'corona.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
