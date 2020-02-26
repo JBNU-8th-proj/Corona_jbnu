@@ -6,6 +6,9 @@
   </head>
   <body>
     <div id="map" style="width:100%;height:350px;"></div>
+    {% for patient in patients.all %}
+    <h1>{{ patient.patient_index }}</h1>
+    {% endfor %}
 
     <script
       type="text/javascript"
