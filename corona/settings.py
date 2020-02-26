@@ -57,7 +57,6 @@ INSTALLED_APPS = [
 
     # 앱
     'core.apps.CoreConfig',
-    'comap.apps.ComapConfig',
 ]
 
 MIDDLEWARE = [
