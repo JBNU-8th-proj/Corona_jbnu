@@ -1,6 +1,8 @@
-0. 시크릿키 확인
+- 시크릿키 확인
 
-1. pip install -r requirements.txt 할 것
+- pip install -r requirements.txt 할 것
+
+- 정보가 나오지 않을시 parsing.py 실행
 
 ---
 
